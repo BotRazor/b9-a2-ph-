@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  .navbar-container {
+    margin: 20px;
+  }
+  .check-btn {
+    display: block;
+  }
+  .nav-right ul li {
+    display: none;
+  }
+}
