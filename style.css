@@ -362,3 +362,44 @@ li,
   left: 388px;
   bottom: 150px;
 }
+/* Newspaper content start  */
+
+/* footer portion  */
+.footer-container {
+  width: 100%;
+  height: 502px;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+}
+.footer-content h3 {
+  color: var(--Dark-01, #131318);
+  font-size: 32px;
+  font-weight: 800;
+  margin: 15px;
+}
+.footer-line {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-content img {
+  margin: 15px;
+}
+.social-media-icons i {
+  margin: 15px;
+  width: 100px;
+  height: 24px;
+}
+.footer-last-line {
+  margin-top: 100px;
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+}
