@@ -22,4 +22,19 @@
   .popular-tour-container img {
     width: 100%;
   }
+  .first-row-image,
+  .second-row-image,
+  .third-row-image {
+    flex-direction: column;
+  }
+  .first-image,
+  .second-image,
+  .third-image,
+  .fourth-image,
+  .fifth-image,
+  .sixth-image,
+  .seventh-image {
+    width: 93%;
+    margin: 10px;
+  }
 }

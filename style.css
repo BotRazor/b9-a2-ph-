@@ -20,15 +20,16 @@ body {
   color: #fff;
   border: 0;
 }
-
-/* Navbar start  */
 .navbar-container,
 .banner,
-.popular-tour-container {
+.popular-tour-container,
+.destination-container,
+.image-collage-container {
   max-width: 1250px;
   margin: 0 auto;
 }
 
+/* Navbar start  */
 .nav-details {
   display: flex;
   justify-content: space-between;
@@ -131,15 +132,108 @@ select {
 .tour-details {
   padding: 33px;
 }
-.tour-details h2 {
+.tour-details h2,
+.destination-title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
 }
 .tour-details p,
-li {
+li,
+.destination-details {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
   padding: 20px;
+}
+/* popular portion end  */
+
+/* destination portion start  */
+.destination-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* destination image collage start  */
+.first-row-image,
+.second-row-image,
+.third-row-image {
+  display: flex;
+}
+
+.first-image {
+  margin-top: 50px;
+  height: 350px;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle\ 5.png);
+}
+
+.overlay {
+  color: #fff;
+  font-weight: 600;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+.second-image {
+  margin-top: 50px;
+  height: 350px;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle\ 8.png);
+  margin-left: 20px;
+}
+.third-image {
+  margin-top: 40px;
+  height: 350px;
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle\ 6.png);
+}
+.fourth-image {
+  margin-top: 40px;
+  height: 350px;
+  width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle\ 7.png);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.fifth-image {
+  margin-top: 40px;
+  height: 350px;
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle\ 9.png);
+}
+.sixth-image {
+  margin-top: 40px;
+  height: 350px;
+  width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle\ 11.png);
+}
+.seventh-image {
+  margin-top: 40px;
+  height: 350px;
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin-left: 20px;
+  background-image: url(Images/Rectangle\ 10.png);
 }
