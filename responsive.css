@@ -8,4 +8,11 @@
   .nav-right ul li {
     display: none;
   }
+  .banner {
+    height: 100%;
+    margin: 20px;
+  }
+  .banner-search-option {
+    margin: auto;
+  }
 }
