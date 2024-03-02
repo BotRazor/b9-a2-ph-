@@ -15,4 +15,11 @@
   .banner-search-option {
     margin: auto;
   }
+  .popular-tour-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .popular-tour-container img {
+    width: 100%;
+  }
 }

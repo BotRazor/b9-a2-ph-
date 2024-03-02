@@ -8,13 +8,23 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  list-style: none;
   box-sizing: border-box;
+}
+.primary-button {
+  border-radius: 8px;
+  font-size: 16px;
+  width: 174px;
+  height: 42px;
+  padding: 12px;
+  background: #ff5400;
+  color: #fff;
+  border: 0;
 }
 
 /* Navbar start  */
 .navbar-container,
-.banner {
+.banner,
+.popular-tour-container {
   max-width: 1250px;
   margin: 0 auto;
 }
@@ -109,13 +119,27 @@ select {
   color: rgba(19, 19, 24, 0.5);
   border: 0;
 }
-.primary-button {
-  border-radius: 8px;
+
+/* banner end  */
+
+/* Popular Tour portion start */
+
+.popular-tour-container {
+  display: flex;
+  margin-top: 70px;
+}
+.tour-details {
+  padding: 33px;
+}
+.tour-details h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.tour-details p,
+li {
+  color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
-  width: 174px;
-  height: 42px;
-  padding: 12px;
-  background: #ff5400;
-  color: #fff;
-  border: 0;
+  font-weight: 400;
+  padding: 20px;
 }
