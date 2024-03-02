@@ -51,4 +51,23 @@
   .first-card {
     margin-left: 20px;
   }
+  .newsletter-content {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .news-right-content button {
+    width: 75%;
+    height: 120px;
+    position: relative;
+    left: 80px;
+    bottom: 170px;
+  }
+  .news-left-content {
+    width: 100%;
+  }
+  .news-right-content img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }

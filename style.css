@@ -26,7 +26,8 @@ body {
 .destination-container,
 .image-collage-container,
 .choose-us,
-.hotel-card-container {
+.hotel-card-container,
+.Newsletter-container {
   max-width: 1250px;
   margin: 0 auto;
 }
@@ -309,4 +310,55 @@ li,
   color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* hotel card portion end  */
+
+/* Newspaper content start  */
+.newsletter-content {
+  display: flex;
+  margin-top: 60px;
+}
+.news-left-content {
+  height: 300px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 45px;
+}
+.news-left-content h3 {
+  margin: 10px 0;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.news-left-content p {
+  margin: 10px 0;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-left-content input {
+  margin: 5px 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 15px;
+  border: 0;
+}
+.news-right-content img {
+  height: 300px;
+  width: 96%;
+  margin-left: 23px;
+}
+.news-right-content button {
+  width: 300px;
+  height: 100px;
+  transform: rotate(-19.628deg);
+  padding: 30px;
+  position: relative;
+  left: 388px;
+  bottom: 150px;
 }
