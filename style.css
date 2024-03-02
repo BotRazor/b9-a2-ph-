@@ -24,7 +24,9 @@ body {
 .banner,
 .popular-tour-container,
 .destination-container,
-.image-collage-container {
+.image-collage-container,
+.choose-us,
+.hotel-card-container {
   max-width: 1250px;
   margin: 0 auto;
 }
@@ -236,4 +238,75 @@ li,
   border-radius: 16px;
   margin-left: 20px;
   background-image: url(Images/Rectangle\ 10.png);
+}
+
+/* destination image collage end  */
+.choose-us {
+  margin-top: 50px;
+  text-align: center;
+}
+.choose-us h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-us p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+/* hotel card portion start  */
+.first-card-row {
+  display: flex;
+}
+.first-card {
+  width: 50%;
+  padding: 30px;
+  margin-top: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.second-card {
+  width: 50%;
+  padding: 30px;
+  margin-top: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  margin-left: 15px;
+}
+.third-card {
+  margin: 350px;
+  margin-bottom: 0px;
+  width: 50%;
+  padding: 30px;
+  margin-top: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.first-card img,
+.second-card img,
+.third-card img {
+  width: 60px;
+  height: 60px;
+}
+.first-card h3,
+.second-card h3,
+.third-card h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 15px;
+  margin-left: 0px;
+}
+.first-card p,
+.second-card p,
+.third-card p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
 }

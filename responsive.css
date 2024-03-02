@@ -37,4 +37,18 @@
     width: 93%;
     margin: 10px;
   }
+  .first-card,
+  .second-card,
+  .third-card {
+    width: 90%;
+  }
+  .third-card {
+    margin: 20px;
+  }
+  .first-card-row {
+    flex-direction: column;
+  }
+  .first-card {
+    margin-left: 20px;
+  }
 }
